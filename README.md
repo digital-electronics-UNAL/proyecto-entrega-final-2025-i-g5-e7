@@ -36,6 +36,8 @@ El sistema se divide en tres módulos principales:
 
   El total de elementos lógicos usados, así como el total de pines usados se muestra en la siguiente gráfica:
   ![alt text](image.png)
+
+
 **ÁREA UTILIZADA**
 La FPGA Cyclone IV E – EP4CE10E22C8 tiene un total de 10,320 LEs disponibles.
 Componentes de una LE (Logic Element)
@@ -55,11 +57,6 @@ Circuitería de control del FF y la LE.
 Estimado: ~20–30 transistores
 Una Logic Element (LE) en una FPGA Cyclone IV E contiene una LUT de 4 entradas, un flip-flop tipo D, y varios multiplexores. 
 
-Componente	Aprox. transistores
-LUT de 4 entradas	~96
-Multiplexores	~40–60
-Flip-Flop	~24
-Control lógico	~20–30
 TOTAL	180–210 transistores por LE
 
 La FPGA EP4CE10E22C8, con sus 10,320 LEs totales, tiene entre 1.8 y 2.2 millones de transistores solo en LEs, y más de 10 millones de transistores totales incluyendo todos los demás bloques.
