@@ -60,7 +60,7 @@ Una Logic Element (LE) en una FPGA Cyclone IV E contiene una LUT de 4 entradas, 
 TOTAL	180–210 transistores por LE
 
 La FPGA EP4CE10E22C8, con sus 10,320 LEs totales, tiene entre 1.8 y 2.2 millones de transistores solo en LEs, y más de 10 millones de transistores totales incluyendo todos los demás bloques.
-Como te mencioné antes, cada Logic Element (LE) se estima que contiene aproximadamente:
+Cada Logic Element (LE) se estima que contiene aproximadamente:
 
 ~180 a 210 transistores por LE
 
