@@ -115,13 +115,24 @@ Durante el desarrollo del proyecto, se utilizó **ChatGPT (GPT-4)** como asisten
 - Identificar errores de comportamiento en los botones.
 - Proponer mejoras como la implementación del botón de reset.
 
+Gracias a la IA pudimos encontrar la forma en que se solucionaban problemas de configuración en Quartus como lo es la forma deseada del circuito para el buen funcionamiento del Hardware, en este caso el pull down y el pull up que fue necesario arreglar y configurar en la FPGA y se pudo hacer gracias a los pasos brindados por la IA y los profesores.
+
 La IA fue utilizada como apoyo en comprensión, depuración y documentación, pero toda la implementación fue verificada y adaptada por nosotros.
 
 ## 5. Conclusiones
 
 El proyecto demostró que es posible implementar un juego interactivo clásico en hardware digital utilizando Verilog. El sistema es funcional tanto en simulación como en FPGA real, gracias al uso de una arquitectura modular y una FSM bien definida. La integración de sonido, tiempo, entrada de usuario y generación de secuencia aleatoria permitió una experiencia lúdica completa.
+El proyecto no solo cumplió una función técnica, sino también pedagógica.
+El diseño demostró una utilización eficiente de recursos, empleando apenas el 4% de los Logic Elements disponibles en la FPGA Cyclone IV.
+La división del sistema en módulos (SimonTop, simon, play) facilitó el desarrollo, la comprensión del flujo lógico, y la depuración del sistema.
+
+La implementación de la generación de secuencias pseudoaleatorias basada en el tiempo de espera del usuario fue una solución creativa para evitar patrones predecibles sin necesidad de un generador de números aleatorios complejo, logrando variabilidad en el juego con bajo costo computacional.
+
+El proyecto permitió reforzar conocimientos clave sobre máquinas de estados finitas (FSM), control de tiempo mediante contadores, manejo de entradas activas bajas y la integración de señales digitales con salidas analógicas simples (como el buzzer).
 
 Además, se aprendió la importancia de gestionar correctamente los botones activos bajos y evitar conflictos entre señales de control como `reset` y entradas de juego.
+
+
 
 ## 6. Bibliografía
 
